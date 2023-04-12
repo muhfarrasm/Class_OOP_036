@@ -46,7 +46,7 @@ void Matakuliah::TampilMK() {//9
 	cout << "SKS mata kuliah : " << sks << endl;
 }
 
-int main(){
+int main(){ //10
 	Mahasiswa mhs;
 	Matakuliah mk;
 
