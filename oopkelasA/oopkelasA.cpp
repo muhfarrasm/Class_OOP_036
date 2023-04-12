@@ -25,7 +25,11 @@ private:		//commit 6
 	string namamk;
 	int sks;
 
-public:
+public:		//commit 7
 	void InputMK();
 	void TampilMK();
 };
+
+void Matakuliah::InputMK() {
+	
+}
