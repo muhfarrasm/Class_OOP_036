@@ -19,6 +19,9 @@ public:
 	}
 };
 
-class Matakuliah {
-
+class Matakuliah { //commit 5
+private:		//commit 6
+	string kode;
+	string namamk;
+	int sks;
 };
