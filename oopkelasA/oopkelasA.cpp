@@ -24,4 +24,8 @@ private:		//commit 6
 	string kode;
 	string namamk;
 	int sks;
+
+public:
+	void InputMK();
+	void TampilMK();
 };
