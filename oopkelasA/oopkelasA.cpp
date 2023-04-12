@@ -30,11 +30,18 @@ public:		//commit 7
 	void TampilMK();
 };
 
-void Matakuliah::InputMK() {
+void Matakuliah::InputMK() { // 8
 	cout << "\nMasukkan Kode Mata Kuliah : ";
 	cin >> kode;
 	cout << "Masukkan Nama Mata Kuliah: ";
 	cin >> namamk;
 	cout << "Masukkan SKS Mata Kuliah : ";
 	cin >> sks;
+}
+
+
+void Matakuliah::TampilMK() {//9
+	cout << "Kode mata kuliah : " << kode << endl;
+	cout << "Nama Mata Kuliah : " << namamk << endl;
+	cout << "SKS mata kuliah : " << sks << endl;
 }
